@@ -4,8 +4,7 @@
 
 ## Required Features:
 
-* The program should be able to perform basic mathematical operations (Math has methods for more advanced operations if you include them).
-    * Addition, Subtraction, Division, Multiplication, etc...
+* The program should be able to perform basic mathematical operations (Math has methods for more advanced operations if you include them). Addition, Subtraction, Division, Multiplication, etc...
 * The program should keep running until the user chooses to end it.
 
 ### Optional:
@@ -17,8 +16,7 @@
 
 ### Resources:
 * The Learning Exercises for the C# Fundamentals course.
-* Pluralsight C-Sharp Fundamentals.
-[http://www.pluralsight.com/courses/c-sharp-fundamentals-with-visual-studio-2015](http://www.pluralsight.com/courses/c-sharp-fundamentals-with-visual-studio-2015)
+* Pluralsight C-Sharp Fundamentals. <br />[http://www.pluralsight.com/courses/c-sharp-fundamentals-with-visual-studio-2015](http://www.pluralsight.com/courses/c-sharp-fundamentals-with-visual-studio-2015)
 * Whole course, but focus mainly on Control Flow, Types and Methods.
 
 ### Subjects Covered:
