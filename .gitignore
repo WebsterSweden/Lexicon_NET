@@ -22,3 +22,4 @@
 **/Thumbs.db
 
 # Project .gitignore settings.
+**/Lexicon_NET_Info/
