@@ -25,13 +25,8 @@
 
 ### Subjects Covered:
 *Objects and classes*
-
 *States*
-
 *Behaviours*
-
 *Object relationships*
-
 *Collections*
-
 *Random number generation*
