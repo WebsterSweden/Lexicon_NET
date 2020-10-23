@@ -20,13 +20,13 @@
 * Round – one round of dice rolling; should correspond to a post in the battle log
 
 ### Resources:
-* https://app.pluralsight.com/library/courses/csharp-fundamentals-dev/table-of-contents (Focus on 'Working with Classes and Objects' and ' and 'Object-oriented Programming with C#')
-* https://app.pluralsight.com/library/courses/encapsulation-solid/table-of-contents (the 'Encapsulation' chapter)
+* https://app.pluralsight.com/library/courses/csharp-fundamentals-dev/table-of-contents <br />(Focus on 'Working with Classes and Objects' and ' and 'Object-oriented Programming with C#')
+* https://app.pluralsight.com/library/courses/encapsulation-solid/table-of-contents <br />(the 'Encapsulation' chapter)
 
 ### Subjects Covered:
-*Objects and classes*
-*States*
-*Behaviours*
-*Object relationships*
-*Collections*
+*Objects and classes*<br />
+*States*<br />
+*Behaviours*<br />
+*Object relationships*<br />
+*Collections*<br />
 *Random number generation*
