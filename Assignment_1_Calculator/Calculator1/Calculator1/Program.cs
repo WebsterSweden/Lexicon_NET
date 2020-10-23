@@ -14,7 +14,7 @@ namespace Calculator1
             double number2;
             char operand;
 
-            // The program is running in a do-while loop untill the user chooses to end the program.
+            // The program is running in a do-while loop until the user chooses to end the program.
             do
             {
                 Console.WriteLine("Simple Calculator");
