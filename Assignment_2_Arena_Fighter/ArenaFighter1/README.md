@@ -18,3 +18,20 @@
 * Character – for both the player and the opponents
 * Battle – for the battle itself; should contain the log of the battle, as well as references to both the player and the opponent
 * Round – one round of dice rolling; should correspond to a post in the battle log
+
+### Resources:
+* https://app.pluralsight.com/library/courses/csharp-fundamentals-dev/table-of-contents (Focus on 'Working with Classes and Objects' and ' and 'Object-oriented Programming with C#')
+* https://app.pluralsight.com/library/courses/encapsulation-solid/table-of-contents (the 'Encapsulation' chapter)
+
+### Subjects Covered:
+*Objects and classes*
+
+*States*
+
+*Behaviours*
+
+*Object relationships*
+
+*Collections*
+
+*Random number generation*
