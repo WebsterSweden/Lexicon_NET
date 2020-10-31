@@ -7,6 +7,7 @@ namespace ArenaFighter1
     {
         static void Main()
         {
+            Round.GameStart();
         }
     }
 }
