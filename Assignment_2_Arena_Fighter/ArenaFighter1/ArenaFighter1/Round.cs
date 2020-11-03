@@ -1,107 +1,145 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace ArenaFighter1
 {
     class Round
     {
-        // Round Class is used for all game events and all randomized results.
-        // Every game event is saved to the battle log.
+        // Round class is used for all game events and all round results.
+        // Every game event and round is saved to the battle log.
 
-        public static void GameStart()
+        public void GameStart()
+        {
+            GameIntro();
+            int playerId = PlayerCreate();
+            int playerIdCheck = playerId;
+            int opponentId = OpponentCreate(playerIdCheck);
+            int opponentIdCheck = opponentId;
+        }
+
+        public void GameIntro()
         {
             Console.WriteLine("Welcome to the Star Wars Arena Fighter Battle Game!");
+        }
+
+        public int PlayerCreate()
+        {
+            // Player enter user name.
             Console.Write("Enter your name: ");
 
-            Character.ProponentStatus = false;
+            Character player = new Character();
 
-            while (Character.ProponentStatus == false)
+            // Player repeat input until valid input.
+            player.Status = false;
+
+            while (player.Status == false)
             {
-                // Accept all characters except empty string.
-                Character.ProponentUserName = Console.ReadLine();
-                if (Character.ProponentUserName == "")
+                // Accept all characters except empty string and whitespace.
+                player.Name = Console.ReadLine();
+                if (String.IsNullOrWhiteSpace(player.Name))
                 {
                     Console.Write("Please enter your name: ");
                 }
                 else
                 {
-                    Console.WriteLine($"Welcome {Character.ProponentUserName}!");
-                    Character.ProponentStatus = true;
+                    Console.WriteLine($"Welcome {player.Name}!");
+                    player.Status = true;
+
+                    // Add player to battle log.
+                    Battle.BattleLog.Add($"[Battle log] Player user name: {player.Name}");
                 }
             }
 
-            // Add Proponent User Name to the battle log.
-            Battle.BattleLog.Add($"[Battle log] Player User Name: {Character.ProponentUserName}");
-
-            // Proponent select Character.
-            Console.WriteLine("Select the Character you want to be in the fight: ");
+            // Player select character.
+            Console.WriteLine("Select the character you want to be in the fight: ");
             Console.WriteLine("(1) Darth Vader       (2) Stormtrooper      (3) Tie Fighter");
             Console.WriteLine("(4) C-3PO             (5) R2-D2             (6) Millennium Falcon");
-            Console.Write("Choose the number representing your favourite Character: ");
 
-            Character.ProponentChoiceOfCharacterStatus = false;
+            // Player repeat input until valid input.
+            player.Status = false;
 
-            // Proponent repeat input until valid input.
-            while (Character.ProponentChoiceOfCharacterStatus == false)
+            while (player.Status == false)
             {
+                // Accept only integers.
                 string input = Console.ReadLine();
                 Int32.TryParse(input, out int output);
-                Character.ProponentSelectCharacter(output);
 
-                if (Character.ProponentCharacterId != 1 && Character.ProponentCharacterId != 2 && Character.ProponentCharacterId != 3 && Character.ProponentCharacterId != 4 && Character.ProponentCharacterId != 5 && Character.ProponentCharacterId != 6)
+                // Bind player number with associated character.
+                player.CharacterList(output);
+
+                // Accept only number 1-6.
+                // TODO: How to use regular expression?
+                if (player.CharacterId != 1 && player.CharacterId != 2 && player.CharacterId != 3 && player.CharacterId != 4 && player.CharacterId != 5 && player.CharacterId != 6)
                 {
-                    Console.Write("Please choose a number between 1-6: ");
-                    Character.ProponentChoiceOfCharacterStatus = false;
+                    Console.WriteLine("Please choose a number between 1-6: ");
+                    player.Status = false;
                 }
                 else
                 {
-                    Console.WriteLine($"{Character.ProponentUserName}, you have choosen number {Character.ProponentCharacterId} and will be the {Character.ProponentCharacterName} Character!");
-                    Character.ProponentChoiceOfCharacterStatus = true;
+                    // Randomize player strength.
+                    player.Strength = 10 + Randomization.Random_1_6();
 
-                    // Randomize Proponent Strength.
-                    Character.ProponentStrength = 10 + Randomization.Random_1_6();
-                    Console.WriteLine($"The {Character.ProponentCharacterName} has a randomized strength of: {Character.ProponentStrength}");
+                    Console.WriteLine($"{player.Name}, you have choosen number {player.CharacterId} and will be the {player.CharacterName} with a randomized strength of {player.Strength}!");
+                    player.Status = true;
 
-                    // Add Proponent choice of Character ID to battle log.
-                    Battle.BattleLog.Add($"[Battle log] Player Selected Character ID: {Character.ProponentCharacterId}");
+                    // Add player choice of character number to battle log.
+                    Battle.BattleLog.Add($"[Battle log] Player character number: {player.CharacterId}");
 
-                    // Add Proponent choice of Character Name to battle log.
-                    Battle.BattleLog.Add($"[Battle log] Player Character Name: {Character.ProponentCharacterName}");
+                    // Add character name to battle log.
+                    Battle.BattleLog.Add($"[Battle log] Player character name: {player.CharacterName}");
 
-                    // Add Proponent Strength to battle log.
-                    Battle.BattleLog.Add($"[Battle log] Player Randomized Strength: {Character.ProponentStrength}");
+                    // Add player strength to battle log.
+                    Battle.BattleLog.Add($"[Battle log] Player character strength: {player.Strength}");
+                }
+            }
+            return player.CharacterId;
+        }
+
+        public int OpponentCreate(int playerCheck)
+        {
+            Character opponent = new Character();
+
+            // Randomize opponent number.
+            opponent.CharacterId = Randomization.Random_1_6();
+
+            opponent.Status = false;
+
+            // Check if it is the same character number as the player and keep repeating until it is not the same number.
+            while (opponent.Status == false)
+            {
+                opponent.CharacterId = Randomization.Random_1_6();
+
+                if (opponent.CharacterId == playerCheck)
+                {
+                    opponent.CharacterId = Randomization.Random_1_6();
+                    opponent.Status = false;
+                }
+                else
+                {
+                    opponent.Status = true;
                 }
             }
 
-            // Opponent randomize Character ID and bind it with associated Character Name.
-            Character.OpponentRandomizationCharacter();
-            Character.OpponentSelectCharacter(Character.OpponentCharacterId);
+            // Bind opponent number with associated character.
+            opponent.CharacterList(opponent.CharacterId);
 
-            Console.WriteLine($"Your Enemy got a randomized number of {Character.OpponentCharacterId} and this is the {Character.OpponentCharacterName} Character!");
+            // Randomize opponent strength.
+            opponent.Strength = 10 + Randomization.Random_1_6();
 
-            // Randomize Opponent Strength.
-            Character.OpponentStrength = 10 + Randomization.Random_1_6();
-            Console.WriteLine($"The Enemy {Character.OpponentCharacterName} have a strength of: {Character.OpponentStrength}");
+            Console.WriteLine($"The Enemy got a randomized number of {opponent.CharacterId} and will be the {opponent.CharacterName} with a randomized strength of {opponent.Strength}");
 
-            // Add Opponent Character ID to battle log.
-            Battle.BattleLog.Add($"[Battle log] Enemy Randomized Character ID: {Character.OpponentCharacterId}");
+            // Add randomized opponent character number to battle log.
+            Battle.BattleLog.Add($"[Battle log] Enemy character number: {opponent.CharacterId}");
 
-            // Add Opponent Character Name to battle log.
-            Battle.BattleLog.Add($"[Battle log] Enemy Character Name: {Character.OpponentCharacterName}");
+            // Add opponent character name to battle log.
+            Battle.BattleLog.Add($"[Battle log] Enemy character name: {opponent.CharacterName}");
 
-            // Add Opponent Strength to battle log.
-            Battle.BattleLog.Add($"[Battle log] Enemy Randomized Strength: {Character.OpponentStrength}");
+            // Add opponent strength to battle log.
+            Battle.BattleLog.Add($"[Battle log] Enemy character strength: {opponent.Strength}");
 
-            // Game is over.
-
-            // Output a list of all events from the battle log.
-            //Console.Clear();
+            // TODO: Check before release.
             Battle.BattleList();
+
+            return opponent.CharacterId;
         }
     }
 }
-
-// TODO: Save every randomized event to the battle log.
-// Random if proponent or opponent start the battle.

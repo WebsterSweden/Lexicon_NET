@@ -1,12 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ArenaFighter1
 {
     class Battle
     {
-        // Battle Class is used for the control of every game round and keeps a log of every game action.
+        // Battle class is used for the control of the game and saves a battle log of every game action.
 
         // Save all game actions in the battle log.
         public static List<object> BattleLog = new List<object>();
@@ -14,6 +13,10 @@ namespace ArenaFighter1
         // Output a list of all events from the battle log.
         public static void BattleList()
         {
+            // TODO: Check before release.
+            //Console.Clear();
+
+            // Reverse the list.
             //BattleLog.Reverse();
 
             foreach (var battleEvent in BattleLog)
@@ -23,6 +26,3 @@ namespace ArenaFighter1
         }
     }
 }
-
-// TODO:
-// Battle log reference to both players and round events.
