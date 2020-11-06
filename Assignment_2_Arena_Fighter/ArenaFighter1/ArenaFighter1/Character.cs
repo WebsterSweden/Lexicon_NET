@@ -21,6 +21,12 @@ namespace ArenaFighter1
         // Participant character strength.
         public int Strength { get; set; } = 0;
 
+        // Participant bonus.
+        public int Bonus { get; set; } = 0;
+
+        // Participant strike damage.
+        public int Damage { get; set; } = 0;
+
         // Participant character and character number list.
         public void CharacterList(int characterChoice)
         {
@@ -48,7 +54,7 @@ namespace ArenaFighter1
                     break;
                 case 6:
                     CharacterId = 6;
-                    CharacterName = "Millenium Falcon";
+                    CharacterName = "Millennium Falcon";
                     break;
             }
         }

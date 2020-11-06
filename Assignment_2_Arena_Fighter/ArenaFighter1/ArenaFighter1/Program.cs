@@ -4,12 +4,15 @@ namespace ArenaFighter1
 {
     class Program
     {
+        // Simple Arena Fighter Console Application.
+
         // Program class
         static void Main()
         {
-            Round roundObject = new Round();
+            Round game = new Round();
 
-            roundObject.GameStart();
+            // Game start.
+            game.GameStart();
         }
     }
 }

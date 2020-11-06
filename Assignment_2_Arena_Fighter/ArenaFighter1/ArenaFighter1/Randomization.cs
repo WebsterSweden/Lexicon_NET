@@ -14,5 +14,13 @@ namespace ArenaFighter1
             int randomNumber_1_6 = randomGenerator.Next(1, 7);
             return randomNumber_1_6;
         }
+
+        // Generate random whole number between 4 and 7.
+        // Used for damage when striking.
+        public static int RandomDamage()
+        {
+            int randomDamage = randomGenerator.Next(7, 11);
+            return randomDamage;
+        }
     }
 }
