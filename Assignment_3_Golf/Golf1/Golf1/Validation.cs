@@ -2,9 +2,9 @@ using System;
 
 namespace Golf1
 {
-    class Algorithms
+    class Validation
     {
         // Default constructor.
-        public Algorithms() { }
+        public Validation() { }
     }
 }
