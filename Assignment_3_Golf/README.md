@@ -21,7 +21,7 @@
 * Angle In Radians: (Math.PI / 180) * angle
 * Distance: Math.Pow(velocity, 2) / GRAVITY * Math.Sin(2 * angleInRadians)
 * Gravity is equal to 9.8
-*Example: At 45 Degrees and 56 m/s, the ball should travel 320 meters.*
+* Example: At 45 Degrees and 56 m/s, the ball should travel 320 meters.
 
 ### Subjects Covered:
 *Collections*

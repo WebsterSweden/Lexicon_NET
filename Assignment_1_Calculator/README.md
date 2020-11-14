@@ -17,7 +17,7 @@
 ### Resources:
 * The Learning Exercises for the C# Fundamentals course.
 * Pluralsight C-Sharp Fundamentals. <br />[https://app.pluralsight.com/library/courses/csharp-fundamentals-dev/](http://www.pluralsight.com/courses/c-sharp-fundamentals-with-visual-studio-2015)
-* Whole course, but focus mainly on Control Flow, Types and Methods.
+    * Whole course, but focus mainly on Control Flow, Types and Methods.
 
 ### Subjects Covered:
 * *Basic Program Flow*
