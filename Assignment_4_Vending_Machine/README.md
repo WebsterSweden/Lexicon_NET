@@ -16,7 +16,7 @@
 
 * Money denominations should be defined as an array of integers.
 * Each product type should be its own class.
-* These classes should all inherit form the same interface or abstract class, to get the methods they have in common. This base class is the type the vending machine itself should look for.
+* These classes should all inherit from the same interface or abstract class, to get the methods they have in common. This base class is the type the vending machine itself should look for.
 * The common methods should include at least:
     * Purchase, to buy the product
     * Examine, to show the product's price and info
