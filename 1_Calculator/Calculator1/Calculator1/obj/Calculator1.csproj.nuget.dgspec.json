@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\Assignment_1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj": {}
+    "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\Assignment_1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj": {
+    "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\Assignment_1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj",
+        "projectUniqueName": "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj",
         "projectName": "Calculator1",
-        "projectPath": "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\Assignment_1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj",
+        "projectPath": "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\1_Calculator\\Calculator1\\Calculator1\\Calculator1.csproj",
         "packagesPath": "C:\\Users\\Windows-7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\Assignment_1_Calculator\\Calculator1\\Calculator1\\obj\\",
+        "outputPath": "C:\\Users\\Windows-7\\Documents\\Google_Drive_Transfer\\Lexicon_NET\\1_Calculator\\Calculator1\\Calculator1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
