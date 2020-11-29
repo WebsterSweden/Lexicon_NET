@@ -1,0 +1,10 @@
+Vending Machine Instructions
+
+Start application.
+
+The Vending Machine starts and show info and product list.
+
+Read information and view the product list.
+
+Press continue and go to next step.
+
