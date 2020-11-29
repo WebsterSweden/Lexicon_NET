@@ -1,0 +1,13 @@
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\bin\Debug\netcoreapp3.1\Golf1.exe
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\bin\Debug\netcoreapp3.1\Golf1.deps.json
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\bin\Debug\netcoreapp3.1\Golf1.runtimeconfig.json
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\bin\Debug\netcoreapp3.1\Golf1.runtimeconfig.dev.json
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\bin\Debug\netcoreapp3.1\Golf1.dll
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\bin\Debug\netcoreapp3.1\Golf1.pdb
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\obj\Debug\netcoreapp3.1\Golf1.AssemblyInfoInputs.cache
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\obj\Debug\netcoreapp3.1\Golf1.AssemblyInfo.cs
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\obj\Debug\netcoreapp3.1\Golf1.csproj.CoreCompileInputs.cache
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\obj\Debug\netcoreapp3.1\Golf1.dll
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\obj\Debug\netcoreapp3.1\Golf1.pdb
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\obj\Debug\netcoreapp3.1\Golf1.genruntimeconfig.cache
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\Assignment_3_Golf\Golf1\Golf1\obj\Debug\netcoreapp3.1\Golf1.csprojAssemblyReference.cache
