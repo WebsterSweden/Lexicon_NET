@@ -51,11 +51,9 @@
 * All the CSS code should come from the same file, and be linked into the HTML file through a link tag – there should be no style tags or style attributes in the HTML file at all.
 
 ### Resources:
-https://www.w3schools.com/css/default.asp
-
-https://app.pluralsight.com/library/courses/front-end-web-app-html5-javascript-css/table-of-contents
-
-https://app.pluralsight.com/library/courses/css-intro/table-of-contents
+* https://www.w3schools.com/css/default.asp
+* https://app.pluralsight.com/library/courses/front-end-web-app-html5-javascript-css/table-of-contents
+* https://app.pluralsight.com/library/courses/css-intro/table-of-contents
 
 ### Subjects Covered:
 * CSS
