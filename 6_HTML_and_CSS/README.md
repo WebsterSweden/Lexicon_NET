@@ -7,19 +7,19 @@
 * The page should be encoded using the UTF-8 character set
 * A page title, defined in the head element.
 * A header element containing a heading (h1) with the page name. It should also have a nav element with an unordered list of at least 3 links
-* A container element for the main content of the page, containing a heading (h2), a paragraph of text and two article elements. Each should have filler text - at least 2 paragraphs each. One should have an image (use lorempixel.com)
+* A container element for the main content of the page, containing a heading (h2), a paragraph of text and two article elements. Each should have filler text - at least 2 paragraphs each. One should have an image (use http://lorempixel.com/)
 * A aside element, containing a heading (h2) and an unordered list of nations, each list item containing an ordered list of the nation's three biggest cities
 * A footer element, containing a copyright symbol and your name
 
 ### Resources:
-* http://www.w3schools.com/ - General HTML reference
-* http://sv.lipsum.com/ - Filler Text
+* https://www.w3schools.com/ - General HTML reference
+* https://lipsum.com/ - Filler Text
 * http://lorempixel.com/ - Placeholder Images
-* http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css (The first two chapters are relevant for this week)
+* https://app.pluralsight.com/library/courses/front-end-web-app-html5-javascript-css/table-of-contents (The first two chapters are relevant for this week)
 
 ### Subjects Covered:
 
-### Basic HTML<br />
+### Basic HTML
 * Containers<br />
     * Header, Footer, Nav, Section, Article, Aside<br />
 * Lists<br />
