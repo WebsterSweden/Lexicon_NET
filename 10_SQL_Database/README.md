@@ -12,7 +12,7 @@
 
 Following diagram describes the required columns and their relationships among tables within the database
 
-!(https://github.com/WebsterSweden/Lexicon_NET/blob/master/10_SQL_Database/images/database-1.png)
+![](https://github.com/WebsterSweden/Lexicon_NET/blob/master/10_SQL_Database/images/database-1.png)
 
 ## Relation
 
@@ -53,7 +53,7 @@ Write a query that changes the price of all movies made in 2014 to 169 kr. SELEC
 * Write a query to copy the information from PhoneNo to CellNo.
     * Write a query to empty the PhoneNo column (Sets it to an empty string)
 
-!(https://github.com/WebsterSweden/Lexicon_NET/blob/master/10_SQL_Database/images/database-2.png)
+![](https://github.com/WebsterSweden/Lexicon_NET/blob/master/10_SQL_Database/images/database-2.png)
 
 ### Resources:
 * https://www.sqlcourse.com/
