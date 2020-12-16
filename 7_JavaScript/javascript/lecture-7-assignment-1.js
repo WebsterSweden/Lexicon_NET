@@ -32,8 +32,18 @@ function stringOneMove() {
 
 function stringOneTimerStart() {
     'use strict';
-    document.getElementById("stringOneOutput").innerHTML += stringOneSplit.join("") + "<br>";
+    document.getElementById("stringOneTimerStart").disabled = true;
+    // document.getElementById("stringOneOutput").innerHTML += stringOneSplit.join("") + "<br>";
     stringOneInterval = setInterval(stringOneMove, 1000);
 }
 
-stringOneTimerStart();
+// stringOneTimerStart();
+
+document.getElementById("stringOneTimerStart").addEventListener("click", stringOneTimerStart);
+
+function reload() {
+    'use strict';
+    location.reload();
+}
+
+document.getElementById("reload").addEventListener("click", reload);
