@@ -37,9 +37,12 @@ Write queries to create Orders and OrderRows for the following scenarios<br />
     B. On 2015-01-15, Peter Biron purchased 2 copies of The Wolf of Wall Street<br />
     C. On 2014-12-20, Jonas Greys purchased The Wolf of Wall Street. (Tip: You should create the Order first, otherwise you will not have OrderId, which will be required while creating the OrderRows.)<br />
 
-Query example: INSERT INTO Orders VALUES(...) SELECT TOP 1 Id FROM Orders ORDER BY Id DESC - Get the latest inserted OrderId INSERT INTO OrderRows VALUES(...) UPDATE
-Write a query that changes the price of all movies made in 2014 to 169 kr. SELECT
+Query example: INSERT INTO Orders VALUES(...) SELECT TOP 1 Id FROM Orders ORDER BY Id DESC - Get the latest inserted OrderId INSERT INTO OrderRows VALUES(...)
 
+UPDATE
+* Write a query that changes the price of all movies made in 2014 to 169 kr.
+
+SELECT
 * Write queries for the following SELECT operations:<br />
     A. Get Firstname, Lastname, PhoneNo and Email to all Customers.<br />
     B. Get all movies, ordered by Year from newest to oldest.<br />

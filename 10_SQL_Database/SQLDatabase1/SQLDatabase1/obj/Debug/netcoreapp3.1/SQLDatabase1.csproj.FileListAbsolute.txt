@@ -1,0 +1,13 @@
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\bin\Debug\netcoreapp3.1\SQLDatabase1.exe
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\bin\Debug\netcoreapp3.1\SQLDatabase1.deps.json
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\bin\Debug\netcoreapp3.1\SQLDatabase1.runtimeconfig.json
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\bin\Debug\netcoreapp3.1\SQLDatabase1.runtimeconfig.dev.json
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\bin\Debug\netcoreapp3.1\SQLDatabase1.dll
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\bin\Debug\netcoreapp3.1\SQLDatabase1.pdb
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\obj\Debug\netcoreapp3.1\SQLDatabase1.csprojAssemblyReference.cache
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\obj\Debug\netcoreapp3.1\SQLDatabase1.AssemblyInfoInputs.cache
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\obj\Debug\netcoreapp3.1\SQLDatabase1.AssemblyInfo.cs
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\obj\Debug\netcoreapp3.1\SQLDatabase1.csproj.CoreCompileInputs.cache
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\obj\Debug\netcoreapp3.1\SQLDatabase1.dll
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\obj\Debug\netcoreapp3.1\SQLDatabase1.pdb
+C:\Users\Windows-7\Documents\Google_Drive_Transfer\Lexicon_NET\10_SQL_Database\SQLDatabase1\SQLDatabase1\obj\Debug\netcoreapp3.1\SQLDatabase1.genruntimeconfig.cache
