@@ -31,8 +31,8 @@ CREATE DATABASE AND TABLES<br />
 * No column should allow NULL values.<br />
 
 INSERT<br />
-    * Insert following data to the Movies and Customers table
-* At least one record in each table should be inserted using an INSERT query. (You can also enter data directly to the table)<br />
+* Insert following data to the Movies and Customers table
+    * At least one record in each table should be inserted using an INSERT query. (You can also enter data directly to the table)<br />
 
 Write queries to create Orders and OrderRows for the following scenarios<br />
     A. On 2015-01-01, Jonas Greys purchased Interstellar and Pulp Fiction<br />
@@ -41,7 +41,7 @@ Write queries to create Orders and OrderRows for the following scenarios<br />
 
 Query example: INSERT INTO Orders VALUES(...) SELECT TOP 1 Id FROM Orders ORDER BY Id DESC - Get the latest inserted OrderId INSERT INTO OrderRows VALUES(...)
 
-UPDATE
+UPDATE<br />
 * Write a query that changes the price of all movies made in 2014 to 169 kr.
 
 SELECT
