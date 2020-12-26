@@ -22,15 +22,16 @@ Why is the Price column included in both the Movie and the OrderRow tables? Beca
 
 ### Code Requirements:
 
-CREATE DATABASE AND TABLES
+CREATE DATABASE AND TABLES<br />
 * Create all tables, as mentioned in the diagram
     * Table names and column names should be exactly the same as mentioned in the diagram, even no misspellings allowed.
 * Set primary key and REFERENCES to other tables as mentioned in the diagram Create the tables in the right order, which will help you to reference the correct table.
 * Select the appropriate data type for each column
     * Primary key should be automatically increased while adding new record to the table
-* No column should allow NULL values. INSERT
+* No column should allow NULL values.<br />
+INSERT<br />
     * Insert following data to the Movies and Customers table
-* At least one record in each table should be inserted using an INSERT query. (You can also enter data directly to the table)
+* At least one record in each table should be inserted using an INSERT query. (You can also enter data directly to the table)<br />
 
 Write queries to create Orders and OrderRows for the following scenarios<br />
     A. On 2015-01-01, Jonas Greys purchased Interstellar and Pulp Fiction<br />
