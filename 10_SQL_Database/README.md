@@ -29,6 +29,7 @@ CREATE DATABASE AND TABLES<br />
 * Select the appropriate data type for each column
     * Primary key should be automatically increased while adding new record to the table
 * No column should allow NULL values.<br />
+
 INSERT<br />
     * Insert following data to the Movies and Customers table
 * At least one record in each table should be inserted using an INSERT query. (You can also enter data directly to the table)<br />
